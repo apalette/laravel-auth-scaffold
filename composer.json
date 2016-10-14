@@ -1,0 +1,26 @@
+{
+    "name": "codeuz/auth-scaffold",
+    "description": "Laravel 5 authentification scaffold with email verification (FR)",
+    "keywords" : ["authentification", "login", "scaffold", "mail", "verification"],
+    "homepage" : "https://github.com/apalette/laravel-auth-scaffold",
+    "type" : "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurélie Palette",
+            "email": "aurelie@codeuz.com",
+            "homepage" : "http://codeuz.com",
+            "role" : "Developper"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeuz\\AuthScaffold\\": "src/"
+        }
+    }
+}
